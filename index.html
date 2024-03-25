@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Fonts -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
         </style>
 <body>
@@ -23,16 +24,20 @@
         </div>
         <h1 class="guessNumber position-fixed bottom-50 start-50 text-center">?</h1>
     </div>
-    <div class="second-container d-flex justify-content-around align-items-center">
-        <div class="guessing d-flex flex-column gap-2">
-            <input type="number" class="number-text">
-            <button class="check align-self-center">Check!</button>
-        </div>
-        <div class="score">
-            <p>Let's play</p>
-            <p><span class="text-danger">💯</span>Score:  <span class="chances">20</span></p>
-            <p>High score: <span class="high-score">0</span></p>
+    <div class="second-container d-flex flex-column justify-content-around align-items-center">
+        <p class="hints h2">Start playing now...</p>
+        <div class="inner-container d-flex justify-content-around ">
+            <div class="guessing d-flex flex-column gap-2">
+                <input type="number" class="number-text">
+                <button class="check align-self-center">Check!</button>
+            </div>
+            <div class="score">
+                <p>Let's play</p>
+                <p><span class="text-danger">💯</span>Score:  <span class="chances">20</span></p>
+                <p>High score: <span class="high-score">0</span></p>
+            </div>
         </div>
     </div>
+        <script src="javaScript/script.js"></script>
 </body>
 </html>

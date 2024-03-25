@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     color: white;
-    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
 
 }
 body{
@@ -27,7 +27,6 @@ body{
     width: 100px;
 }
 .main-header{
-    font-family: 'Jacquarda Bastarda 9', sans-serif;
     color: white;
     text-align: center;
 }
@@ -36,6 +35,7 @@ body{
     font-family: sans-serif;
 }
 .guessNumber{
+    font-family: "Jacquarda Bastarda 9",sans-serif;
     width: 60px;
     height: 60px;
     background-color: white;
@@ -60,7 +60,12 @@ body{
 .check{
     color: black;
     width: 100px;
+    
 
+}
+
+.inner-container{
+    width: 100%;
 }
 /* Score div */
 .second-container .score{
